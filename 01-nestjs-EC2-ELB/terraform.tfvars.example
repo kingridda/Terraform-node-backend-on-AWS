@@ -1,0 +1,24 @@
+# IAM Access and Secret Key for your IAM user
+aws_access_key = "YOUR AWS ACCESS KEY"
+
+aws_secret_key = "YOUR AWS SECRET KEY"
+
+# Name of the key pair in AWS, MUST be in same region as EC2 instance
+# Check README for AWS CLI commands to create a key pair
+key_name = "Name of the key pair in AWS"
+
+# Local path to pem file for key pair. 
+# Windows paths need to use double-backslash: Ex. C:\\Users\\RIDDA\\key_pair.pem
+private_key_path = "path to pem file"
+
+
+# Environment tag for all resources being created. You can leave this value as-is.
+environment_tag = "dev"
+
+# Made up billing code to be added as a tag to resources. You can leave this value as-is.
+billing_code_tag = "BA00000AB"
+
+db_password = "rootrootroot"
+db_user = "root"
+db_name = "db_test_00001"
+db_identifier = "db-id-1"
